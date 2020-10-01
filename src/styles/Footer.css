@@ -1,0 +1,33 @@
+.test-superfuds {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.63);
+  margin-top: 30px;
+}
+
+.information {
+  margin: 20px;
+}
+
+.author {
+  margin-bottom: 15px;
+  padding-top: 6px;
+  color: white;
+  font-weight: bolder;
+}
+
+.text-adludio {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}

@@ -1,0 +1,97 @@
+.card-shoppingCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.card-headerShoppingCar {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.specification {
+  display: flex;
+}
+
+.text-superfudsShoppingCart {
+  display: flex;
+}
+
+.image-shoppingCart {
+  width: 160px;
+  height: 160px;
+}
+
+.quantity {
+  width: 200px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.quantity-unids {
+  font-size: 20px;
+}
+
+.plus {
+  font-size: 40px;
+  color: #4dcc85;
+  cursor: pointer;
+}
+
+.minus {
+  font-size: 40px;
+  color: #4dcc85;
+  cursor: pointer;
+}
+
+.cost {
+  width: 240px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-shoppingCart {
+  display: flex;
+  justify-content: center;
+}
+
+.title-productShoppingCart {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.text-superfudsShoppingCart {
+  color: #4dcc85;
+  font-weight: 500;
+}
+
+.sign-shoppingCart {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #4dcc85;
+}
+.real-price {
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+}
+.trash {
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.trash:hover {
+  color: rgba(128, 128, 128, 0.829);
+}

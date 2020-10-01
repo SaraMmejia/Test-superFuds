@@ -1,0 +1,144 @@
+.NavBar {
+  background-color: #4dcc85;
+  height: 100px;
+  width: 100%;
+}
+.navbar-light {
+  color: white;
+}
+.NavBar-Title {
+  color: white;
+  font-weight: bolder;
+  font-size: 2em;
+  margin-left: 30px;
+  text-decoration: none;
+  border: none;
+}
+.NavBar-Title:link,
+.NavBar-Title:visited,
+.NavBar-Title:active {
+  text-decoration: none;
+}
+
+.bi {
+  color: gray;
+  cursor: pointer;
+}
+
+.bi-bi-cart-fill:hover {
+  color: #ddcdcd;
+  text-decoration: none;
+}
+
+.NavBar-Groups {
+  margin-left: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.NavBar-link {
+  color: white;
+  font-size: 20px;
+  margin: 4px;
+  padding: 0px;
+}
+
+.dropdown-toggle {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.Photo-perfil {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 50px;
+  position: relative;
+}
+
+.mr-auto.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 576px) {
+  .NavBar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .NavBar-Title {
+    margin: 5px;
+    text-decoration: none;
+  }
+  .mr-sm-2.form-control {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 230px;
+    border-radius: 10px;
+  }
+  .bi-bi-cart-fill {
+    margin: 5px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar.navbar-expand-lg.navbar-light {
+    max-width: 1250px;
+  }
+  .NavBar-link {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .input-search {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 600px;
+    border-radius: 10px;
+  }
+  .bi-bi-search {
+    margin-left: 5px;
+    color: gray;
+  }
+  .bi-bi-cart-fill {
+    margin-left: 150px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: white;
+  }
+  .form-inline {
+    display: flex;
+    width: 250px;
+    margin-left: 210px;
+  }
+  .mr-auto.navbar-nav {
+    width: 500px;
+  }
+  .total-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 120px;
+  }
+  .Photo-perfil {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 50px;
+    position: relative;
+  }
+}

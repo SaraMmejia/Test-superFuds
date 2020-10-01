@@ -1,0 +1,13 @@
+@media screen and (min-width: 300px) {
+  .title-new {
+    margin: 20px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title-new {
+    margin: 20px;
+    font-size: 40px;
+  }
+}
